@@ -69,7 +69,7 @@ def verActividadesFecha():
     ##Si hay actividades en esa fecha
     print(f"\n----- ACTIVIDADES DEL {fecha} -----")
     ##Función enumerate:
-    ## enumerar todo las actividades que tiene el calendario (teniendo en cuenta su fecha) e inicializar en 1
+    ## enumerar todas las actividades que tiene el calendario (teniendo en cuenta su fecha) e inicializar en 1
     for idx, actividad in enumerate(calendario[fecha], start = 1):
         print(f"{idx}. {actividad['hora']} -- {actividad['titulo']}")
         
